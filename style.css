@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #E3F2FD;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* يبدأ من اليسار */
+  background-color: #1565C0;
+  padding: 10px 20px;
+}
+
+nav .logo img {
+  height: 50px;
+  margin-right: 50px; /* مسافة بين اللوجو والقائمة */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #D4AF37;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+footer a {
+  color: #00aced;
+  text-decoration: none;
+  margin: 0 5px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+footer h3 {
+  text-align: center;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+}
+button {
+  background-color: #FFB74D;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #0084b4;
+}
+.notice1 {
+  color: red;
+  background-color: yellow;
+  padding: 5px;
+  margin-left: 35rem;
+  margin-right: 35rem;
+  border-radius: 10px;
+}
+.p1 {
+  color: red;
+  background-color: yellow;
+    margin-left: 18rem;
+  margin-right: 18rem;
+  border-radius: 10px;
+
+}
+.book-card {
+  border: 1px solid #FAF9F6;
+  border: #E0E0E0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.book-cover {
+  width: 100%;
+  height: auto;
+  width: 100%;        /* يجعل الصورة بعرض البطاقة */
+  height: 300px;      /* يحدد ارتفاع ثابت */
+  object-fit: cover;  /* يضمن أن الصورة تُقص بشكل مناسب دون تشويه */
+  border-radius: 4px; /* لمسة جمالية */
+}
+
+.book-title {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.book-description {
+  font-size: 13px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.book-button {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #0078d7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.book-button:hover {
+  background-color: #005a9e;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;   /* يسمح بالانتقال للسطر التالي إذا امتلأ الأول */
+  gap: 100px;         /* مسافة بين البطاقات */
+  justify-content: center; /* لتوسيط البطاقات */
+  align-items: stretch;
+  margin-top: 50px;
+}
+
+.book-card {
+  width: 220px;      /* عرض البطاقة */
+}
+.Definition h1 {
+  color: #333333;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  line-height: 1.2;
+  word-break: break-word;
+  text-align: center;
+  margin: 1rem 0;
+}
+.Definition p {
+  padding-left: 3%;
+  padding-right: 30%;
+}
+section {      /* مسافة داخلية حول المحتوى */
+  margin-bottom: 20px; /* مسافة خارجية بين الأقسام */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+.h3 {
+  margin-left: 50px;
+  font-size:x-large;
+}
+footer.copyright {
+  background-color: #1A3D5D; /* لون الخلفية */
+  color: #fff;              /* لون النص */
+  text-align: center;       /* توسيط النص */
+  padding: 15px 0;          /* مسافة داخلية */    
+  font-size: 14px;
+}
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+/* الهواتف العمودية */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px; /* نص أكبر مناسب للهواتف */
+  }
+
+  header, footer {
+    padding: 10px;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+  h1 {
+    font-size: 1.6rem;   /* صغّر حجم العنوان */
+    line-height: 1.4;    /* يمنع تراكب الكلمات */
+    text-align: center; /* اختياري */
+  }
+}
+/* الأجهزة المتوسطة (تابلت) */
+@media (min-width: 601px) and (max-width: 900px) {
+  body {
+    font-size: 18px;
+  }
+  img {
+  max-width: 100%;
+  height: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
