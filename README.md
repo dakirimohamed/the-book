@@ -26,10 +26,6 @@ It provides clear information about each story and its writer, helping visitors 
 - CSS3 (with Media Queries)  
 - GitHub Pages 🌐  
 
----
-
-## 📂 Project Structure
-______________________
 
 ---
 
@@ -38,6 +34,14 @@ ______________________
    👉 [The Book](https://dakirimohamed.github.io/the-book)  
 2. Browse books and content easily.  
 3. Enjoy a smooth and comfortable reading experience.  
+
+---
+
+## 📸 Screenshots
+Below are some screenshots of the website to showcase its design and responsiveness:  
+
+![Homepage Screenshot](assets/images/homepage.png)  
+![Books Section Screenshot](assets/images/books.png)  
 
 ---
 
