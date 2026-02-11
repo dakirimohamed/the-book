@@ -29,3 +29,22 @@ It provides clear information about each story and its writer, helping visitors 
 ---
 
 ## 📂 Project Structure
+
+---
+
+## ⚡ Usage
+1. Open the website via:  
+   👉 [The Book](https://dakirimohamed.github.io/my-page/)  
+2. Browse books and content easily.  
+3. Enjoy a smooth and comfortable reading experience.  
+
+---
+
+## 🤝 Contributing
+- Suggestions and improvements are welcome.  
+- Open an **Issue** or submit a **Pull Request**.  
+
+---
+
+## 👨‍💻 Author
+Developed and maintained by **Addakiri Mohamed**  
